@@ -1,0 +1,5 @@
+{"Patente":"PIQ 403","Hora":"00:15"}
+{"Patente":"PIQ 403","Hora":"15:40"}
+{"Patente":"AAA 123","Hora":"15:45"}
+{"Patente":"piq 321","Hora":"15:45"}
+{"Patente":"ASD 123","Hora":""}
