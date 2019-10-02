@@ -1,8 +1,3 @@
-{"Patente":"PIQ 403","Hora":"00:15"}
-{"Patente":"PIQ 403","Hora":"15:40"}
-{"Patente":"AAA 123","Hora":"15:45"}
-{"Patente":"piq 321","Hora":"15:45"}
-{"Patente":"ASD 123","Hora":""}
-{"Patente":"","Hora":""}
-{"Patente":"1234","Hora":"05:05"}
-{"Patente":"1234","Hora":"01:01"}
+{"Patente":"PIQ 565","fechaIngreso":1570056703}
+{"Patente":"PIQ 565","fechaIngreso":1570058839}
+{"Patente":"PIQ 565","fechaIngreso":1570058846}
