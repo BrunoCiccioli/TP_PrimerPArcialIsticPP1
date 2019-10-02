@@ -3,3 +3,6 @@
 {"Patente":"AAA 123","Hora":"15:45"}
 {"Patente":"piq 321","Hora":"15:45"}
 {"Patente":"ASD 123","Hora":""}
+{"Patente":"","Hora":""}
+{"Patente":"1234","Hora":"05:05"}
+{"Patente":"1234","Hora":"01:01"}

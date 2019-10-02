@@ -21,7 +21,7 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Estacionamiento</a>
+        <a class="navbar-brand" href="index.php">Estacionamiento</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,10 +48,8 @@
  Patente:<br>
   <input type="text" name="patente" value="">
   <br>
-  Hora:<br>
-  <input type="time" name="hora" value="">
-  <br><br>
   <input type="submit" value="Ingresar">
+  
 </form> 
     </main>
 
