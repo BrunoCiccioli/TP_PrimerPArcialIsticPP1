@@ -10,4 +10,5 @@ $MiObjeto->fechaIngreso=$horaIngreso;
 $archivo=fopen('estacionados.txt', 'a');
 fwrite($archivo,json_encode($MiObjeto)."\n");
 fclose($archivo);
+header("Location: okingreso.php");
 ?>
