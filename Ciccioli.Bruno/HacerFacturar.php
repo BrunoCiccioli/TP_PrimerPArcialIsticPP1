@@ -1,15 +1,12 @@
 <?php
 
-date_default_timezone_get('America/Argentina/Buenos_Aires')
-
-$miPatenteParaCobrar=$_GET ['patente'];
-
-$archivo = fopen("estacionados.txt", "r");
+$archivo=fopen("estacionados.txt", "r");
+$miPatenteParaCobrar = $_GET['patente'];
 
 while(!feof($archivo)) 
 {
 	$objeto = json_decode(fgets($archivo));
-	if(objeto->patente==$miPatenteParaCobrar)
+	if ($objeto->patente == $miPatenteParaCobrar);
 	{
 		$horaEgreso = mktime();
 		$tiempoTranscurrido = $horaEgreso-$horaIngreso;
@@ -19,5 +16,6 @@ while(!feof($archivo))
 
 }	
 fclose($archivo)
+
 
 ?>

@@ -32,6 +32,9 @@
               <a class="nav-link" href="ingresoVehiculo.php">Registrar Vehiculo</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="facturar.php">Facturar</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="precios.php">Lista de Precios</a>
             </li>
            
