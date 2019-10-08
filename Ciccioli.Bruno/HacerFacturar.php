@@ -10,8 +10,9 @@ while(!feof($archivo))
 	{
 		$horaEgreso = mktime();
 		$tiempoTranscurrido = $horaEgreso-$horaIngreso;
-		$ValoraCobrar = ($tiempoTranscurrido/60)*100;
-		header("Location: okfacturar.php");	
+		$ValoraCobrar = ($tiempoTranscurrido/60*100);
+		header("Location: okfacturar.php? &cobrar=".$ValoraCobrar);
+		break;	
 	}	
 
 }

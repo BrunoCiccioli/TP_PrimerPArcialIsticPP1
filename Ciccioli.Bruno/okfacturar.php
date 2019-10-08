@@ -38,9 +38,13 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-    <h1>Tiene que abonar : </h1>
+   <?php
+   $cobrar = $_GET['cobrar'];
+   echo "tiene que abonar : $" .$cobrar;
+
+   ?>
      
- 	<img src="ok.png"height="450">
+ 	
     </main>
 
     <footer class="footer">
