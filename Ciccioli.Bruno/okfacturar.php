@@ -39,8 +39,16 @@
     <!-- Begin page content -->
     <main role="main" class="container">
    <?php
+   error_reporting(0);
    $cobrar = $_GET['cobrar'];
-   echo "tiene que abonar : $" .$cobrar;
+   $ingreso = $_GET['fechaIngreso'];
+   $salida = $_GET['horaEgreso'];
+   $patente = $_GET['patente'];
+   
+   echo "Tiene que abonar : $" .$cobrar. "<br>";
+   echo "Ingreso: " .date("d-m-y H:i"),$ingreso."<br>"; 
+   echo "Salida: " .date("d-m-y H:i"), $salida."<br>";
+   echo "Patente :" .$patente. "<br>";
 
    ?>
      

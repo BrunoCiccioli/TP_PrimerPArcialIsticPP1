@@ -1,3 +1,4 @@
 {"Patente":"XXX 999","fechaIngreso":1570640181}
 {"Patente":"1234","fechaIngreso":1570641187}
 {"Patente":"1234","fechaIngreso":1570641199}
+{"Patente":"AZX 876","fechaIngreso":1570656279}

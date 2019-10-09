@@ -25,7 +25,7 @@ while(!feof($archivo))
 		fwrite($archivo1, json_encode($vehiculofacturado). "\n");
 		fclose($archivo1);
 
-		header("Location: okfacturar.php? &cobrar=".$ValoraCobrar);
+		header("Location: okfacturar.php? &cobrar=".$ValoraCobrar. "&ingreso=".$objeto->fechaIngreso."&salida=".$horaEgreso. "&patente=".$miPatenteParaCobrar);
 		break;	
 	}	
 
