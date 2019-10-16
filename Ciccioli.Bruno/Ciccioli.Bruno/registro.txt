@@ -1,5 +1,0 @@
-{"Usuario":"bruno","Clave":"123"}
-{"Usuario":"sergio","Clave":"123"}
-{"Usuario":"sergio","Clave":"123"}
-{"Usuario":"pepe","Clave":"123"}
-{"Usuario":"Xabi","Clave":"asd123"}
