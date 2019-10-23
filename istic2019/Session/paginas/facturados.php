@@ -79,12 +79,13 @@ session_start();
         echo "<tr>";
         echo "<td>".$objeto->Vehiculo."</td>   <td>".$objeto->fechaEntrada."</td>   <td>".$objeto->fechaSalida."</td>   <td>".$objeto->importe."</td>";
         echo "</tr>";
-        echo "</table>";
+       
 
 
         $totalFacturado = $totalFacturado + $objeto->importe;
       }
     }
+    echo "</table>";
 
     echo "<h2> TOTAL FACTURADO: $".$totalFacturado."</h2>";
     fclose($archivo);
