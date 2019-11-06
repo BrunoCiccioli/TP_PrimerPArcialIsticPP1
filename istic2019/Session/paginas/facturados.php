@@ -66,7 +66,7 @@ session_start();
       
 <?php
 
-  include 'accesoadatos.php';
+  include '../funciones/accesoadatos.php';
 
   $cantidadAutos=0;
   $totalFacturado = 0;
