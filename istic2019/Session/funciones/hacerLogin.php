@@ -18,7 +18,7 @@
 	else
 	{
 		$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
-			$consulta =$objetoAccesoDato->RetornarConsulta("select nombre  , clave  from usuario");
+			$consulta =$objetoAccesoDato->RetornarConsulta("select nombre  , clave, perfil  from usuario");
 			$consulta->execute();			
 			$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);
 		//$archivo = fopen("../archivos/registro.txt", "r") or die("Imposible arbrir el archivo");
@@ -36,9 +36,9 @@
 
 					//fclose($archivo);
 					$_SESSION['usuario']=$usuario["nombre"];
-					$_SESSION['perfil']=$objeto->perfil;
+					$_SESSION['perfil']=$usuario["perfil"];
 					//$_COOKIE['cookiename']=$usuarioIngresado;
-					setcookie("usuario", $_SESSION['usuario']);
+					setcookie("cookie", $_SESSION['usuario']);
 
 					header("Location: ../paginas/login.php?exito=signup");
 					exit();
